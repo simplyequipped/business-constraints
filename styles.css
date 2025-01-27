@@ -26,6 +26,9 @@ body {
 	padding: 20px;
     box-sizing: border-box;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .body-content {
@@ -50,7 +53,7 @@ body {
 
 .icon {
     position: relative;
-	display: inline-block;
+    display: block;
 	height: 45px;
 	width: 45px;
 	cursor: pointer;
@@ -64,7 +67,6 @@ body {
 
 .icon-hamburger {
 	-webkit-mask-image: url('icons/hamburger.svg');
-	float: right;
 }
 
 */
