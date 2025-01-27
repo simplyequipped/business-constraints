@@ -1,8 +1,5 @@
 /* mobile */
 @media screen and (min-width: 350px) {
-    html {
-        position: fixed;
-    }
     .header-content {
         width: 100%;
     }
@@ -26,10 +23,6 @@
     }
     .body-content {
         width: 50%;
-    }
-    .icon-hamburger {
-        top: 10px;
-        right: 17px;
     }
     .menu {
         top: -17px;
