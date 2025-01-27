@@ -19,11 +19,11 @@ body {
     color: var(--tertiary-color);
 	background: var(--primary-color);
 	font-size: var(--title-font-size);
-	padding: 15px;
     width: 100%;
 }
 
 .header-content {
+	padding: 20px;
     margin: auto;
 }
 
