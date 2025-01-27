@@ -12,7 +12,7 @@ body {
     color: var(--tertiary-color);
     margin: 0px;
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 .header {
@@ -25,11 +25,15 @@ body {
 }
 
 .header-content {
+    width: 50%;
+    margin: auto;
 }
 
 .body-content {
 	background: var(--tertiary-color);
     height: 100%;
+    width: 50%;
+    margin: auto;
 }
 
 /*https://jsfiddle.net/ajiths4u/u9dzyvct/*/
