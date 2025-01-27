@@ -1,0 +1,79 @@
+:root{
+	--primary-color: #607D8B;
+	--secondary-color: #B0BEC5;
+	--tertiary-color: #ECEFF1;
+    --heading-font-size: 1.375em;
+    --title-font-size: 1.5em;
+}
+
+body {
+	font-family: sans-serif;
+	width: 30%;
+	margin: 20px 0px 0px 20px;
+    font-size: 100%;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+/* icon styles 
+
+.icon {
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	cursor: pointer;
+	mask-size: cover;
+	background: var(--secondary-color);
+}
+
+.icon:hover {
+	background: var(--tertiary-color);
+}
+
+.icon-hamburger {
+	position: absolute;
+	display: block;
+	-webkit-mask-image: url('icons/hamburger.svg');
+	width: 45px;
+	top: 5px;
+	right: 12px
+}
+
+*/
+
+/* menu styles */
+
+.menu-container {
+	position: relative;
+}
+
+.menu {
+	position: absolute;
+	z-index: 1000; /*keep above propagation map*/
+	top: -13px;
+	right: 16px;
+	padding: 15px;
+	/*background-color: var(--secondary-color);
+	border-radius: 10px 0px 10px 10px;*/
+	border: 1px solid var(--primary-color);
+	width: 275px;
+}
+
+.menu-item:hover, .menu-item:active {
+	background-color: var(--tertiary-color);
+}
+
+.menu-item {
+	font-size: var(--heading-font-size);
+	cursor: pointer;
+	padding: 10px 15px 10px 25px;
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	border-radius: 5px;
+}
+
+.menu a:link, .menu a:active, .menu a:hover, .menu a:visited {
+	text-decoration: none;
+}
