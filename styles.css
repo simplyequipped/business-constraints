@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    color: var(--tertiary-color);
+    color: #ffffff;
 	background: var(--primary-color);
 	font-size: var(--title-font-size);
 	font-weight: bold;
@@ -71,6 +71,7 @@ body {
 	width: 45px;
 	top: 5px;
 	right: 12px;
+	background: #ffffff;
 }
 
 */
