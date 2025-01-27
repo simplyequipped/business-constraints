@@ -8,30 +8,30 @@
 
 body {
 	font-family: sans-serif;
-	width: 30%;
     font-size: 100%;
     color: var(--tertiary-color);
 }
 
 .header {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
+	background: var(--primary-color);
 	font-size: var(--title-font-size);
 	font-weight: bold;
 	padding: 15px;
-	margin-top: 10px;
-	position: relative;
+    width: 100%;
+}
+
+.header-content {
+}
+
+.body-content {
+	background: var(--tertiary-color);
 }
 
 /*https://jsfiddle.net/ajiths4u/u9dzyvct/*/
 .viewport {
-	/*background-color: var(--secondary-color);*/
-	background-color: var(--secondary-color);
-	overflow: none;
-	height: 500px;
-	position: relative;
-	overflow: hidden;
 }
-
+/*
 .content {
 	padding-right: 10px;
 	padding-left: 10px;
@@ -40,7 +40,7 @@ body {
 	position: absolute;
 	overflow: auto;
 }
-
+*/
 /* icon styles */
 
 .icon {
