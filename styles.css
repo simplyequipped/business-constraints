@@ -13,12 +13,10 @@ body {
     color: var(--tertiary-color);
 }
 
-.title {
+.header {
 	font-size: var(--title-font-size);
 	font-weight: bold;
-	border: 2px solid var(--tertiary-color);
 	padding: 15px;
-	background-color: var(--secondary-color);
 	margin-top: 10px;
 	position: relative;
 }
@@ -43,7 +41,7 @@ body {
 	overflow: auto;
 }
 
-/* icon styles 
+/* icon styles */
 
 .icon {
 	display: inline-block;
@@ -61,7 +59,7 @@ body {
 .icon-hamburger {
 	position: absolute;
 	display: block;
-	-webkit-mask-image: url('icons/hamburger.svg');
+	/*-webkit-mask-image: url('icons/hamburger.svg');*/
 	width: 45px;
 	top: 5px;
 	right: 12px
