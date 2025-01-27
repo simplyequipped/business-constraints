@@ -26,6 +26,7 @@ body {
 
 .body-content {
 	background: var(--tertiary-color);
+    height: 100%;
 }
 
 /*https://jsfiddle.net/ajiths4u/u9dzyvct/*/
