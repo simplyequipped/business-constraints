@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portal Messenger</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    </head>
+    <body tabindex="-1">
+	    <div class="title">
+			Business Contraints
+            <span class="material-symbols-outlined">menu</span>
+		</div>
+		
+        <div class='menu-container'><div class="menu">
+            <a href="/index.html"><div class="menu-item">Performance</div></a>
+            <a href="/index.html"><div class="menu-item">Economy</div></a>
+        </div></div>
+		
+		<div class="viewport">
+			<div class="content">
+				<!-- hidden element for cloning -->
+				<div class="station original-hidden">
+					<div class="presence-indicator presence-unknown">&nbsp;</div>
+					<div class="chat-name">&nbsp;</div>
+					<div class="last-heard">&nbsp;</div>
+					<span class="icon icon-delete">&nbsp;</span>
+				</div>
+                
+			</div>
+
+		</div>
+		<div class="footer">
+			<span class="icon icon-add">&nbsp;</span>
+			<form id="new-conversation-form">
+				<input type="text" id="new-conversation" placeholder="Type user here..." autofocus autocomplete="off"/>
+				<button type="submit" id="new-conversation-button">Add</button>
+			</form>
+		</div>
+
+    </body>
+        
+    </body>
+      
