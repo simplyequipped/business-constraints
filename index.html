@@ -33,7 +33,9 @@
         $('.menu').hide();
 
         $(window).on('load', function(){
-            $('.menu').slideToggle();
+            $('.icon-hamburger').click(function(){
+                $('.menu').slideToggle();
+            });
         });
 	</script>
 </html>
