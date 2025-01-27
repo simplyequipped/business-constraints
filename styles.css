@@ -14,6 +14,7 @@ body {
 }
 
 .header {
+    color: var(--secondary-color);
 	font-size: var(--title-font-size);
 	font-weight: bold;
 	padding: 15px;
@@ -24,7 +25,6 @@ body {
 /*https://jsfiddle.net/ajiths4u/u9dzyvct/*/
 .viewport {
 	/*background-color: var(--secondary-color);*/
-	border: 2px solid var(--tertiary-color);
 	background-color: var(--secondary-color);
 	overflow: none;
 	height: 500px;
@@ -59,7 +59,7 @@ body {
 .icon-hamburger {
 	position: absolute;
 	display: block;
-	/*-webkit-mask-image: url('icons/hamburger.svg');*/
+	-webkit-mask-image: url('icons/hamburger.svg');
 	width: 45px;
 	top: 5px;
 	right: 12px
