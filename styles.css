@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 	font-size: var(--title-font-size);
 	font-weight: bold;
 	padding: 15px;
@@ -49,11 +49,11 @@ body {
 	width: 45px;
 	cursor: pointer;
 	mask-size: cover;
-	background: var(--secondary-color);
+	background: var(--primary-color);
 }
 
 .icon:hover {
-	background: var(--tertiary-color);
+	background: var(--secondary-color);
 }
 
 .icon-hamburger {
@@ -75,14 +75,14 @@ body {
 
 .menu {
 	position: absolute;
-	z-index: 1000; /*keep above propagation map*/
+	z-index: 10; /*keep above propagation map*/
 	top: -13px;
 	right: 16px;
 	padding: 15px;
-	/*background-color: var(--secondary-color);
-	border-radius: 10px 0px 10px 10px;*/
+	background-color: var(--secondary-color);
+	/*border-radius: 10px 0px 10px 10px;*/
 	border: 1px solid var(--primary-color);
-	width: 275px;
+	width: 175px;
 }
 
 .menu-item:hover, .menu-item:active {
