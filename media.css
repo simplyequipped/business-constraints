@@ -8,10 +8,10 @@
 	.header {
 	}
     .header-content {
-        max-width: 100%;
+        width: 100%;
     }
     .body-content {
-        max-width: 100%;
+        width: 100%;
     }
 	.footer {
 	}
@@ -36,10 +36,10 @@
 	.header {
 	}
     .header-content {
-        max-width: 50%;
+        width: 50%;
     }
     .body-content {
-        max-width: 50%;
+        width: 50%;
     }
 	.footer {
 	}
