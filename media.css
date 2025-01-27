@@ -1,19 +1,11 @@
 /* mobile */
 @media screen and (min-width: 350px) {
     html {
-        height: 100%;
-        width: 100%;
         position: fixed;
     }
 	body {
-        height: 100%;
-		width: 100%;
-		margin: 0px;
-		overflow: hidden;
 	}
 	.header {
-		margin-top: 0px;
-		border-radius: 0px;
 	}
 	.footer {
 	}
@@ -36,19 +28,10 @@
 /* min-height forces raspberry pi 7-inch display to render as mobile */
 @media screen and (min-width: 700px) and (min-height: 750px) {
 	body {
-		max-width: 700px;
-		margin: auto;
-		overflow: hidden;
 	}
 	.header {
 	}
 	.footer {
-	}
-	.viewport {
-		height: 500px;
-	}
-	.content {
-		max-height: 500px;
 	}
     .icon-hamburger {
         top: 10px;
