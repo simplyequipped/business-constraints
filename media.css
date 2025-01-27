@@ -3,22 +3,12 @@
     html {
         position: fixed;
     }
-	body {
-	}
-	.header {
-	}
     .header-content {
         width: 100%;
     }
     .body-content {
         width: 100%;
     }
-	.footer {
-	}
-	.viewport {
-	}
-	.content {
-	}
     .menu {
         /*prevent chat command menu going off bottom of screen, add scrollbar as needed*/
         /*minimum 400px height to keep menu on screen*/
@@ -31,18 +21,12 @@
 /* desktop and laptop */
 /* min-height forces raspberry pi 7-inch display to render as mobile */
 @media screen and (min-width: 700px) and (min-height: 750px) {
-	body {
-	}
-	.header {
-	}
     .header-content {
         width: 50%;
     }
     .body-content {
         width: 50%;
     }
-	.footer {
-	}
     .icon-hamburger {
         top: 10px;
         right: 17px;
