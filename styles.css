@@ -53,7 +53,7 @@ body {
 	width: 45px;
 	cursor: pointer;
 	mask-size: cover;
-	background: var(--primary-color);
+	background: var(--tertiary-color);
 }
 
 .icon:hover {
