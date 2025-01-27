@@ -7,13 +7,17 @@
 	}
 	.header {
 	}
+    .header-content {
+        max-width: 100%;
+    }
+    .body-content {
+        max-width: 100%;
+    }
 	.footer {
 	}
 	.viewport {
-		height: calc(100vh - 212px - (100vh - 100%));
 	}
 	.content {
-		max-height: calc(100vh - (100vh - 100%));
 	}
     .menu {
         /*prevent chat command menu going off bottom of screen, add scrollbar as needed*/
@@ -31,6 +35,12 @@
 	}
 	.header {
 	}
+    .header-content {
+        max-width: 50%;
+    }
+    .body-content {
+        max-width: 50%;
+    }
 	.footer {
 	}
     .icon-hamburger {
