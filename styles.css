@@ -25,14 +25,14 @@ body {
 }
 
 .header-content {
-    width: 50%;
+    /*width: 50%;*/
     margin: auto;
 }
 
 .body-content {
 	background: var(--tertiary-color);
     height: 100%;
-    width: 50%;
+    /*width: 50%;*/
     margin: auto;
 }
 
@@ -65,13 +65,13 @@ body {
 }
 
 .icon-hamburger {
-	position: absolute;
 	display: block;
 	-webkit-mask-image: url('icons/hamburger.svg');
 	width: 45px;
 	top: 5px;
 	right: 12px;
 	background: #ffffff;
+	float: right;
 }
 
 */
