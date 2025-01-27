@@ -6,6 +6,12 @@
     .body-content {
         width: 100%;
     }
+    /*
+    .icon-hamburger {
+        top: -10px;
+        right: -20px;
+    }
+    */
     .menu {
         /*prevent chat command menu going off bottom of screen, add scrollbar as needed*/
         /*minimum 400px height to keep menu on screen*/
@@ -24,6 +30,12 @@
     .body-content {
         width: 50%;
     }
+    /*
+    .icon-hamburger {
+        top: -10px;
+        right: -20px;
+    }
+    */
     .menu {
         top: -17px;
         right: 24px;
