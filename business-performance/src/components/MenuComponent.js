@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, MenuItem, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router';
 
 
 export default function MenuComponent() {
@@ -29,10 +30,9 @@ export default function MenuComponent() {
             horizontal: 'right',
           }}
       >
-          <MenuItem onClick={handleMenuClose}>Overview</MenuItem>
-          <MenuItem onClick={handleMenuClose}>Performance</MenuItem>
-          <MenuItem onClick={handleMenuClose}>Economic Data</MenuItem>
-          <MenuItem onClick={handleMenuClose}>Data Sources</MenuItem>
+          <MenuItem onClick={handleMenuClose} component={Link} to='/'>Performance</MenuItem>
+          <MenuItem onClick={handleMenuClose} component={Link} to='/economy'>Economic Data</MenuItem>
+          <MenuItem onClick={handleMenuClose} component={Link} to='/account'>Account</MenuItem>
       </Menu>
     </>
   );

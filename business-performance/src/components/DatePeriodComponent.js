@@ -14,7 +14,7 @@ export default function DatePeriodComponent() {
   };
 
   return (
-    <Card elevation={0} sx={{margin: '10px auto', '&:last-child': { py: 0, my: 0 }}}>
+    <Card elevation={0} sx={{'&:last-child': { py: 0, my: 0 }, '&:fist-child': { py: 0, my: 0 }}}>
       <CardContent width='100%' sx={{'&:last-child': { pb: 0, mb: 0 }}}>
         <Grid container>
           <Grid item width={{xs: '100%', md: '50%'}} sx={{display: { xs: 'none', md: 'block' }}}/>
